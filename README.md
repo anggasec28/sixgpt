@@ -1,6 +1,6 @@
 #### Spesifikasi Minimum
-- **RAM**: 8 GB
-- **CPU**: 4 cores
+- **RAM**: 4 GB
+- **CPU**: 2 cores
 - **Disk Space**: 100 GB
 
 - Register Account : https://sixgpt.xyz/
