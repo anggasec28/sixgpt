@@ -18,5 +18,5 @@ bash <(curl -s https://raw.githubusercontent.com/anggasec28/sixgpt/refs/heads/ma
 
 ```
 cd sixgpt
-docker compose logs -fn 50
+docker logs -t -f ollama
 ```
