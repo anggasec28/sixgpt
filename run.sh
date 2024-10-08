@@ -1,11 +1,11 @@
 #!/bin/bash
 
-curl -s https://raw.githubusercontent.com/zunxbt/logo/main/logo.sh | bash
-sleep 4
+curl -s https://raw.githubusercontent.com/anggasec28/logo/refs/heads/main/logo.sh | bash
+sleep 6
 
 BOLD=$(tput bold)
 NORMAL=$(tput sgr0)
-PINK='\033[1;35m'
+PINK='\033[0;36m'
 
 show() {
     case $2 in
@@ -32,7 +32,7 @@ check_docker_installed() {
 
 install_docker() {
     show "Sedang menginstall Docker..." "progress"
-    source <(wget -O - )
+    source <(wget -O - https://raw.githubusercontent.com/anggasec28/modul/refs/heads/main/docker.sh)
 }
 
 prompt_user_input() {
