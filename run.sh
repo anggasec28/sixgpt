@@ -35,6 +35,9 @@ install_docker() {
     source <(wget -O - https://raw.githubusercontent.com/anggasec28/modul/refs/heads/main/docker.sh)
 }
 
+mkdir sixgpt
+cd sixgpt
+
 prompt_user_input() {
     read -p "Masukkan Private Key ( Jangan gunakan wallet utama ): " VANA_PRIVATE_KEY
     read -p "Masukkan nama jaringan Vana (satori): " VANA_NETWORK
